@@ -1,5 +1,5 @@
 (Pytorch) lazysheep@LazysheepdeMacBook-Pro SCAN_REPRODUCTION % python run_scan.py
-🚀 Using Apple MPS (Metal Performance Shaders) acceleration!
+Using Apple MPS (Metal Performance Shaders) acceleration!
 Loading datasets...
 /opt/anaconda3/envs/Pytorch/lib/python3.11/site-packages/torch/nn/modules/rnn.py:123: UserWarning: dropout option adds dropout after all but last recurrent layer, so non-zero dropout expects num_layers greater than 1, but got dropout=0.5 and num_layers=1
   warnings.warn(
