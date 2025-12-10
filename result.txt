@@ -1,0 +1,47 @@
+(Pytorch) lazysheep@LazysheepdeMacBook-Pro SCAN_REPRODUCTION % python run_scan.py
+🚀 Using Apple MPS (Metal Performance Shaders) acceleration!
+Loading datasets...
+/opt/anaconda3/envs/Pytorch/lib/python3.11/site-packages/torch/nn/modules/rnn.py:123: UserWarning: dropout option adds dropout after all but last recurrent layer, so non-zero dropout expects num_layers greater than 1, but got dropout=0.5 and num_layers=1
+  warnings.warn(
+The model has 51,561 trainable parameters
+Start training for 10 epochs...
+Epoch: 01 | Time: 0.0m 14.41911506652832s
+        Train Loss: 1.466 | Train PPL:   4.333
+         Val. Loss: 3.189 |  Val. PPL:  24.274
+------------------------------------------------------------
+Epoch: 02 | Time: 0.0m 11.854976892471313s
+        Train Loss: 0.908 | Train PPL:   2.479
+         Val. Loss: 3.245 |  Val. PPL:  25.654
+------------------------------------------------------------
+Epoch: 03 | Time: 0.0m 11.880316972732544s
+        Train Loss: 0.700 | Train PPL:   2.013
+         Val. Loss: 3.215 |  Val. PPL:  24.893
+------------------------------------------------------------
+Epoch: 04 | Time: 0.0m 11.830045938491821s
+        Train Loss: 0.594 | Train PPL:   1.811
+         Val. Loss: 3.509 |  Val. PPL:  33.426
+------------------------------------------------------------
+Epoch: 05 | Time: 0.0m 11.818208932876587s
+        Train Loss: 0.535 | Train PPL:   1.707
+         Val. Loss: 3.616 |  Val. PPL:  37.173
+------------------------------------------------------------
+Epoch: 06 | Time: 0.0m 11.905869960784912s
+        Train Loss: 0.478 | Train PPL:   1.613
+         Val. Loss: 3.627 |  Val. PPL:  37.607
+------------------------------------------------------------
+Epoch: 07 | Time: 0.0m 11.962820053100586s
+        Train Loss: 0.405 | Train PPL:   1.499
+         Val. Loss: 3.841 |  Val. PPL:  46.558
+------------------------------------------------------------
+Epoch: 08 | Time: 0.0m 12.091281175613403s
+        Train Loss: 0.305 | Train PPL:   1.357
+         Val. Loss: 3.812 |  Val. PPL:  45.260
+------------------------------------------------------------
+Epoch: 09 | Time: 0.0m 12.260353088378906s
+        Train Loss: 0.234 | Train PPL:   1.264
+         Val. Loss: 3.782 |  Val. PPL:  43.925
+------------------------------------------------------------
+Epoch: 10 | Time: 0.0m 11.994544267654419s
+        Train Loss: 0.180 | Train PPL:   1.197
+         Val. Loss: 4.021 |  Val. PPL:  55.772
+------------------------------------------------------------
